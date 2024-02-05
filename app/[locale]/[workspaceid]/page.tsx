@@ -3,6 +3,7 @@
 import { ChatbotUIContext } from "@/context/context"
 import { useContext } from "react"
 
+export const runtime = "edge"
 export default function WorkspacePage() {
   const { selectedWorkspace } = useContext(ChatbotUIContext)
 

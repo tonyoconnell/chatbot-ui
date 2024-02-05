@@ -4,6 +4,8 @@ import { Database } from "@/supabase/types"
 import { createClient } from "@supabase/supabase-js"
 import OpenAI from "openai"
 
+export const runtime = "edge"
+
 export async function POST(request: Request) {
   const json = await request.json()
   const { userInput, fileIds, embeddingsProvider, sourceCount } = json as {

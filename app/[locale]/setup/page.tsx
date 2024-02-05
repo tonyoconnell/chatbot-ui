@@ -22,6 +22,7 @@ import {
   StepContainer
 } from "../../../components/setup/step-container"
 
+export const runtime = "edge"
 export default function SetupPage() {
   const {
     profile,

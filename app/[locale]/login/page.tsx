@@ -10,6 +10,8 @@ import { Metadata } from "next"
 import { cookies, headers } from "next/headers"
 import { redirect } from "next/navigation"
 
+export const runtime = "edge"
+
 export const metadata: Metadata = {
   title: "Login"
 }

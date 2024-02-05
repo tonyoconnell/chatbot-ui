@@ -12,6 +12,8 @@ import useHotkey from "@/lib/hooks/use-hotkey"
 import { useTheme } from "next-themes"
 import { useContext } from "react"
 
+export const runtime = "edge"
+
 export default function ChatPage() {
   useHotkey("o", () => handleNewChat())
   useHotkey("l", () => {

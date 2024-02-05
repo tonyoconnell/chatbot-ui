@@ -13,6 +13,7 @@ import { createClient } from "@supabase/supabase-js"
 import { NextResponse } from "next/server"
 import OpenAI from "openai"
 
+export const runtime = "edge"
 export async function POST(req: Request) {
   try {
     const supabaseAdmin = createClient<Database>(

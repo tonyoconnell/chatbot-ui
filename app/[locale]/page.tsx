@@ -5,6 +5,7 @@ import { IconArrowRight } from "@tabler/icons-react"
 import { useTheme } from "next-themes"
 import Link from "next/link"
 
+export const runtime = "edge"
 export default function HomePage() {
   const { theme } = useTheme()
 
