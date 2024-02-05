@@ -1,0 +1,13 @@
+{
+    "markdown.editor.pasteUrlAsFormattedLink.enabled": "smart",
+    "markdown-preview-enhanced.markdownFileExtensions": [
+        
+        ".md",
+        ".markdown",
+        ".mdown",
+        ".mkdn",
+        ".mkd",
+        ".rmd",
+        ".qmd"
+    ]
+}
